@@ -1,0 +1,42 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+myenv/
+env/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Audio files
+*.wav
+*.mp3
+
+# Model and training data
+*.npy
+*.joblib
+training_data/
+*.mfcc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Coverage and testing
+*.coverage
+.coverage
+coverage/
+.cache/
+
+# Generated files
+questions.json
