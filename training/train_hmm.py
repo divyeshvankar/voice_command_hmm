@@ -59,7 +59,7 @@ if __name__ == "__main__":
     hmm.train(sequences, max_iter=50)
 
     # Save the model parameters
-    np.save("start_prob.npy", hmm.start_prob)
-    np.save("trans_prob.npy", hmm.trans_prob)
-    np.save("emit_prob.npy", hmm.emit_prob)
+    np.save("start_prob.npy", hmm.start_prob)  ## PIE
+    np.save("trans_prob.npy", hmm.trans_prob)   ## A
+    np.save("emit_prob.npy", hmm.emit_prob)  ## B
     print("HMM training completed and parameters saved.")
